@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="stylerecovery.css">
+</head>
+<body>
+    <div class="box">
+      <form class="recuperacao">
+        <fieldset class="grupo">
+            <legend id="primeira"><b>Recuparação de Senha</b></legend>
+            <div class="caixa">
+                <label for="nome">Matrícula</label><br>
+                <input type="text" name="matricula" id="matricula" required placeholder="Digite sua matrícula">
+            </div>
+            <div class="caixa">
+                <label for="nome">Nome de Usuário</label><br>
+                <input type="text" name="usuário" id="usuário" required placeholder="Digite seu nome de usuário">
+            </div>
+            <div class="caixa">
+                <label for="nome">Nome Completo</label><br>
+                <input type="text" name="nome" id="nome" required placeholder="Digite seu nome">
+            </div>
+
+            <div class="caixa">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" required placeholder="Digite seu email">
+            </div>
+
+            <div class="caixa">
+                <label for="nova">Nova Senha</label><br>
+                <input type="password" name="nova" id="nova" required placeholder="Sua senha nova"><br>
+            </div>  
+            <div class="caixa"> 
+                <label for="confirmar">Confirmar senha</label><br>
+                <input type="password" name="confirmar" id="confirmar" required placeholder="Confirme sua senha">
+            </div>
+
+            <div class="botao-cadastro">
+                <input type="submit" value="Salvar" id="salvar" class="botoes">
+                <a href="index.html"><input type="button" value="Voltar" id="voltar" class="botoes"></a>
+            </div>
+
+        </fieldset>
+      </form>
+    </div>
+</body>
+</html>

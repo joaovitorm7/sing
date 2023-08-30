@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styleregister.css">
+</head>
+<body>
+    <div class="cadastro">
+     <form>
+        <fieldset>
+            <legend><b>Cadastro</b></legend>
+            <div class="campo">
+               <label for="nome">Nome Completo</label><br>
+               <input type="text" name="nome" id="nome" required placeholder="Digite seu nome">
+            </div>
+            <br>
+            <br>
+            <div class="data">
+                <label for="data"><b>Data de Nascimento:</label>
+                <input type="date" name="data" id="data" required>
+            </div>
+            <br>
+            <div class="campo">
+                <label for="matricule-se">Matrícula</label><br>
+                <input type="text" name="matricule-se" id="matricule-se" placeholder="Digite sua matrícula">
+            </div>
+            <br>
+            <div class="campo">
+                <label for="celular">Celular com DDD</label><br>
+                <input type="tel" name="celular" id="celular" required  placeholder="ex:(88) 99999-9999">
+            </div>
+            <br>
+            <div class="campo">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" required placeholder="ex: abcd@gmail.com">
+            </div>
+            <br>
+            <div class="unidos">
+              <div id="sexo">
+                <p>Sexo:</p>
+                <input type="radio" name="sexo" id="masculino">
+                <label for="sexo">Masculino</label><br>
+                <input type="radio" name="sexo" id="feminino">
+                <label for="sexo">Feminino</label><br>
+              </div>
+
+              <div class="idade">
+                <label for="idade">Idade:</label><br>
+                <input type="number" id="idade" name="idade" required>
+              </div>
+              
+            </div>
+            
+              <div class="estado">      
+                <p>Seu Estado:</p>
+                <select name="estado" id="estado">
+                    <option selected disabled value="">Escolha</option>    
+                    <option value="ceará">Ceará</option>
+                    <option value="pernanbuco">Pernambuco</option>
+                    <option value="piauí">Piauí</option>
+                    <option value="paraíba">Paraíba</option>
+                    <option value="rio de janeiro">Rio de Janeiro</option>
+                    <option value="são paulo">São Paulo</option>
+                    <option value="mato grosso">Mato Grosso</option>
+                    <option value="mato grosso do sul">Mato Grosso do Sul</option>
+                    <option value="goiás">Goiás</option>
+                    <option value="distrito federal">Distrito Federal</option>
+                    <option value="alagoas">Alagoas</option>
+                    <option value="bahia">Bahia</option>
+                    <option value="maranhão">Maranhão</option>
+                    <option value="rio grande do norte">Rio Grande do Norte</option>
+                    <option value="sergipe">Sergipe</option>
+                    <option value="acre">Acre</option>
+                    <option value="amapá">Amapá</option>
+                    <option value="amazonas">Amazonas</option>
+                    <option value="pará">Pará</option>
+                    <option value="rondônia">Rondônia</option>
+                    <option value="roraima">Roraima</option>
+                    <option value="tocantis">Tocantis</option>
+                    <option value="espírito santo">Espírito Santo</option>
+                    <option value="minas gerais">Minas Gerais</option>
+                    <option value="parána">Parána</option>
+                    <option value="rio grande do sul">Rio Grande do Sul</option>
+                    <option value="santa catarina">Santa Catarina</option>
+                </select>
+              </div>
+            
+            <div class="linguagens">
+                <p>Conhece algumas dessas linguagens?</p>
+                <label for="java">JAVA</label>
+                <input type="checkbox" name="box" id="java">
+                <label for="javascript">JavaScript</label>
+                <input type="checkbox" name="js" id="javascript">
+                <label for="python">Python</label>
+                <input type="checkbox" name="pyt" id="python"><br>
+              
+            </div>
+            <br>
+            <div class="button">
+                <input type="submit" value="Salvar" id="button" class="botoes">
+                <a href="index.html"><input type="button" value="Voltar" id="button" class="botoes"></a>
+            </div>
+        </fieldset>
+     </form>
+    </div>
+</body>
+</html>
